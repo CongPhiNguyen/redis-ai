@@ -1,1 +1,3 @@
-FROM python:3.9
+FROM shaynativ/redis-ml
+COPY . .
+
